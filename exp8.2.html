@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grocery Bill Table</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6eb; /* light pink background */
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color:  #ADD8E6;
+    color: white;
+}
+
+.row1 { background-color: #fff3cd; }   
+.row2 { background-color: #d4edda; }   
+.row3 { background-color: #f8d7da; }   
+.row4 { background-color: #e2e3e5; }  
+.row5 { background-color: #fff9c4; }  
+.total {
+    background-color: #FFCC80;
+    font-weight: bold;
+}
+
+tr:hover {
+    opacity: 0.9;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🛒 Grocery Bill</h1>
+
+<table>
+<caption><b>Monthly Shopping</b></caption>
+
+<tr>
+<th>Sr no.</th>
+<th>Item</th>
+<th>Qty</th>
+<th>Price (₹)</th>
+</tr>
+
+<tr class="row1">
+<td>1</td>
+<td>Rice</td>
+<td>2 kg</td>
+<td>200</td>
+</tr>
+
+<tr class="row2">
+<td>2</td>
+<td>Wheat</td>
+<td>3 kg</td>
+<td>150</td>
+</tr>
+
+<tr class="row3">
+<td>3</td>
+<td>Milk</td>
+<td>2 L</td>
+<td>140</td>
+</tr>
+
+<tr class="row4">
+<td>4</td>
+<td>Sugar</td>
+<td>1 kg</td>
+<td>50</td>
+</tr>
+
+<tr class="row5">
+<td>5</td>
+<td>Biscuit</td>
+<td>3</td>
+<td>60</td>
+</tr>
+
+<tr class="total">
+<td colspan="3">Total</td>
+<td>600/-</td>
+</tr>
+
+</table>
+
+</body>
+</html>
