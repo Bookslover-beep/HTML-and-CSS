@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu Card</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6eb; /* light pink */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #ff99aa; /* soft pink header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #fff5f7;
+}
+
+tr:hover {
+    background: #ffd6de;
+    transition: 0.3s;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🍽 Menu Card</h1>
+
+<table>
+<caption><b>Restaurant Special</b></caption>
+
+<tr>
+<th>Sr no.</th>
+<th>Type</th>
+<th>Dish</th>
+<th>Price (₹)</th>
+</tr>
+
+<tr>
+<td rowspan="4">1</td>
+<td rowspan="4">Veg Menu</td>
+<td>Paneer</td>
+<td>100</td>
+</tr>
+
+<tr>
+<td>Pav Bhaji</td>
+<td>80</td>
+</tr>
+
+<tr>
+<td>Dosa</td>
+<td>60</td>
+</tr>
+
+<tr>
+<td>Chapati Bhaji</td>
+<td>50</td>
+</tr>
+
+<tr>
+<td rowspan="3">2</td>
+<td rowspan="3">Non-Veg Menu</td>
+<td>Chicken</td>
+<td>120</td>
+</tr>
+
+<tr>
+<td>Chinese</td>
+<td>100</td>
+</tr>
+
+<tr>
+<td>Fish</td>
+<td>150</td>
+</tr>
+
+</table>
+
+</body>
+</html>
