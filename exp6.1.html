@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Styled iframe Gallery</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background:#e6f4ff;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    iframe {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    iframe:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    .large {
+        width: 500px;
+        height: 200px;
+    }
+
+    .small {
+        width: 300px;
+        height: 300px;
+    }
+</style>
+
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="container">
+    <iframe class="large" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXY0w2dUuNRp4qk-DX--S0HmIpy2NUiXWN9Q&s"></iframe>
+    
+    <iframe class="small" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQRGLG6je-GKhguf8zK3ErzznWmGVvuUCYg&s"></iframe>
+    
+    <iframe class="small" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5TT_YSXt7cMY9Bl5gkpIA8wWWfpVClKYb8g&s"></iframe>
+    
+    <iframe class="small" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjp9jj-s5nn58gOpfFBiKZFy0RsKHWGToMIQ&s"></iframe>
+</div>
+
+</body>
+</html>
