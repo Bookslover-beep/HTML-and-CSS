@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Page</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #d0eaff, #e6f4ff);
+    }
+
+    h1 {
+        text-align: center;
+        color: #0a3d62;
+        padding: 20px;
+        background: #74b9ff;
+        margin: 0;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        overflow: hidden;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0984e3;
+        padding: 15px;
+    }
+
+    .card a:hover {
+        color: #0a3d62;
+    }
+</style>
+
+</head>
+<body>
+
+<h1>D Y Patil College of Engineering and Technology, Kolhapur</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://peri.education/periit/img/cse_b.jpg">
+        <a href="https://coek.dypgroup.edu.in/departments/computer-science-engineering">CSE</a>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeTSqhcOkykZnr2rSUrdn4VByVrhEmU-wenQ&s">
+        <a href="https://coek.dypgroup.edu.in/departments/cse-data-science">DS</a>
+    </div>
+
+    <div class="card">
+        <img src="https://mrcet.com/images/departments/AIML.png">
+        <a href="https://coek.dypgroup.edu.in/departments/cse-ai-ml">AIML</a>
+    </div>
+
+    <div class="card">
+        <img src="https://foet.dypgroup.edu.in/wp-content/uploads/2023/12/Chemistry-Lab-2.-1024x681.jpg">
+        <a href="https://coek.dypgroup.edu.in/departments/chemical-engineering">Chemical</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.shiksha.com/mediadata/images/1521807084php9PB28x.png">
+        <a href="https://coek.dypgroup.edu.in/departments/mechanical-engineering">Mechanical</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.hit.ac.in/images/banner-civil-engineering.jpg">
+        <a href="https://coek.dypgroup.edu.in/departments/civil-engineering">Civil</a>
+    </div>
+
+    <div class="card">
+        <img src="https://www.sswcoe.edu.in/electronic_tele.webp">
+        <a href="https://coek.dypgroup.edu.in/departments/electronics-telecommunication-engineering">ENTC</a>
+    </div>
+
+</div>
+
+</body>
+</html>
