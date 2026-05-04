@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frame Layout (Modern)</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #e6f4ff;
+    }
+
+    .top {
+        height: 50vh;
+        border-bottom: 4px solid #74b9ff;
+    }
+
+    .bottom {
+        display: flex;
+        height: 50vh;
+    }
+
+    iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+
+    iframe:hover {
+        transform: scale(1.01);
+    }
+
+    .col {
+        flex: 1;
+        border-right: 3px solid #74b9ff;
+    }
+
+    .col:last-child {
+        border-right: none;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="top">
+    <iframe src="https://www.wikipedia.org"></iframe>
+</div>
+
+<div class="bottom">
+    <div class="col">
+        <iframe src="exp2.2.html"></iframe>
+    </div>
+    <div class="col">
+        <iframe src="https://onecompiler.com/html"></iframe>
+    </div>
+    <div class="col">
+        <iframe src="exp1.1.html"></iframe>
+    </div>
+</div>
+
+</body>
+</html>
